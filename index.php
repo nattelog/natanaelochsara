@@ -16,7 +16,6 @@
                     <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
                 </span>
                 <h1>Hemsidan är under uppbyggnad.</h1>
-                <p>Men vi hoppas att den snart är klar!</p>
             </div>
         </div>
     </body>
