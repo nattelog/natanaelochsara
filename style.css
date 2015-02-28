@@ -22,16 +22,8 @@ body {
     position: relative;
 }
 
-.php-alert {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
 .wrapper {
     width: 960px;
-}
-
-.temp-info {
-    text-align: center;
+    background-color: black;
+    position: relative;
 }
