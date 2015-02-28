@@ -10,6 +10,28 @@
     </head>
     <body ng-controller="globalController">  
         <div class="wrapper">
+	        
+		<!-- NAVBAR -->
+	    <div class="nav">
+		    <h3>NAVBAR</h3>
+	    </div>
+	    
+		<!-- HEADER -->
+	    <div class="header">
+		    <h3>HEADER</h3>
+	    </div>
+	    
+		<!-- CONTENT -->
+		<div class="content">
+			<h3>CONTENT</h3>
+		</div>
+		
+		<!-- FOOTER -->
+<!-- 		<div class="push"></div> -->
+		<div class="footer">
+			<h3>FOOTER</h3>
+		</div>
+	        
         </div>
     </body>
-</html>	
+</html>
