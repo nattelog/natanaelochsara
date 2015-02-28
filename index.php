@@ -10,14 +10,6 @@
     </head>
     <body ng-controller="globalController">  
         <div class="wrapper">
-            <div class="temp-info">
-                <span class="fa-stack fa-3x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-magic fa-stack-1x fa-inverse"></i>
-                </span>
-                <h1>Hemsidan är under uppbyggnad.</h1>
-                <p>Men vi hoppas den snart är klar!</p>
-            </div>
         </div>
     </body>
-</html>
+</html>	
