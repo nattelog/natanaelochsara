@@ -25,13 +25,13 @@
 		<div class="content">
 			<h3>CONTENT</h3>
 		</div>
-		
+	
+		<div class="push"></div>
+        </div>
+        
 		<!-- FOOTER -->
-<!-- 		<div class="push"></div> -->
 		<div class="footer">
 			<h3>FOOTER</h3>
 		</div>
-	        
-        </div>
     </body>
 </html>
