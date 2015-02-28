@@ -34,7 +34,6 @@ body {
 .wrapper > * {
 	width: 100%;
 	border: 1px solid black;
-	margin-top: 5px;
 }
 
 .wrapper > .nav {
@@ -49,6 +48,6 @@ body {
 	height: 100%;
 }
 
-.wrapper > .footer, .wrapper > .push {
-	height: 142px;
+.footer, .wrapper > .push {
+	height: 155px;
 }
