@@ -14,7 +14,9 @@
 	    
 			<!-- HEADER -->
 		    <div class="header tree-img bg-cover">
+			    <span class="header-arc">15 AUGUSTI 2015</span>
 			    <span class="tk-lust header-text">Sara<br>&<br>Natanael</span>
+			    <span class="header-arc">VIBY, HALLSBERG</span>
 			</div>
 	    
 			<!-- CONTENT -->
