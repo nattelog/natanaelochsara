@@ -118,6 +118,13 @@ svg {
 	display: inline-block;
 }
 
+/* Google Map */
+
+#googleMap {
+	width: 100%;
+	height: 300px;
+}
+
 /* For smaller screens */
 
 @media only screen and (max-width : 768px) {
