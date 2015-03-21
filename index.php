@@ -5,12 +5,14 @@
         <link rel="stylesheet" href="lib/font-awesome.css">
         <link rel="stylesheet" href="style.css">
         <script src="//use.typekit.net/piv1mvd.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+		<script>try{Typekit.load();}catch(e){}</script>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script src="site.js"></script>
         <meta charset="utf-8">
     </head>
     <body>  
 	    
-        <div class="wrapper tree-img bg-cover ">
+        <div class="wrapper tree-img bg-cover tk-adriane">
 	    
 			<!-- HEADER -->
 		    <div class="header tk-grafolita-script">
@@ -32,7 +34,7 @@
 			<div class="content">
 				
 				<!-- ROAD DIRECTION SECTION -->
-				<section class="tk-adriane">
+				<section>
 					<div class="section-wrapper">
 						<div class="section-column">
 							<div class="section-content">
@@ -46,23 +48,24 @@ Dis enda eat expelest alit harum inulpa nonecae nobit inci velia voluptassint qu
 								
 				<div class="section-split"></div>
 				
-				<section class="tk-adriane">
+				<section>
 					<div class="section-wrapper">
 						<div class="section-column">
-							<div class="section-content">
-								<h2>VÄGBESKRIVNING</h2>
-								<p>Pidenim volorum est, aut exceper iberunt isciasp eribusam re sincien issimet es molupic ilique pedisqui num aut ulparuntio. Caborum dolupta conserovid quam, quia deriae lab ium enderum accatquid et harum sus estio. Nem comnietur rempor mi, sit aut essunt ani re nulluptaqui acerspitati aut lam erit, aciatint aut velesed quam fugitat iorerum et ut dolenim aribea sitat.
-Nat laboremque quis atene dolendae nit autas a nientemque quata velicab orroriatiunt quatem repudi occae dolendemod quid experes equosae simus, exerita estinctia quid qui abor sin nis volorei cieness equiae delent explibus asped quae etum rerum, sintor aliqui omnim laborep reictate volorib usdantem conserum qui quia diaerum harum ad enis sim volenis ad endusam quibusant.
-Dis enda eat expelest alit harum inulpa nonecae nobit inci velia voluptassint quam faccumque nis quam, te rem exerume vitae volupti isquian dundiciis et ipic tem suntem idelis et od es vollige ndellau discit as velici bera volupic to ipsa consequo et laborrum, que dendici magnatiae</p>
-							</div>
+							<h2>För dig som inte hittar.</h2>
+							<div id="googleMap"></div>
 						</div>
+					</div>
+				</section>
+				
+				<div class="section-split"></div>
+				
+				<section>
+					<div class="section-wrapper">
 						<div class="section-column">
-							<div class="section-content">
-								<h2>VÄGBESKRIVNING</h2>
-								<p>Pidenim volorum est, aut exceper iberunt isciasp eribusam re sincien issimet es molupic ilique pedisqui num aut ulparuntio. Caborum dolupta conserovid quam, quia deriae lab ium enderum accatquid et harum sus estio. Nem comnietur rempor mi, sit aut essunt ani re nulluptaqui acerspitati aut lam erit, aciatint aut velesed quam fugitat iorerum et ut dolenim aribea sitat.
+							<h2>Vad vi önskar oss.</h2>
+							<p>Pidenim volorum est, aut exceper iberunt isciasp eribusam re sincien issimet es molupic ilique pedisqui num aut ulparuntio. Caborum dolupta conserovid quam, quia deriae lab ium enderum accatquid et harum sus estio. Nem comnietur rempor mi, sit aut essunt ani re nulluptaqui acerspitati aut lam erit, aciatint aut velesed quam fugitat iorerum et ut dolenim aribea sitat.
 Nat laboremque quis atene dolendae nit autas a nientemque quata velicab orroriatiunt quatem repudi occae dolendemod quid experes equosae simus, exerita estinctia quid qui abor sin nis volorei cieness equiae delent explibus asped quae etum rerum, sintor aliqui omnim laborep reictate volorib usdantem conserum qui quia diaerum harum ad enis sim volenis ad endusam quibusant.
 Dis enda eat expelest alit harum inulpa nonecae nobit inci velia voluptassint quam faccumque nis quam, te rem exerume vitae volupti isquian dundiciis et ipic tem suntem idelis et od es vollige ndellau discit as velici bera volupic to ipsa consequo et laborrum, que dendici magnatiae</p>
-							</div>
 						</div>
 					</div>
 				</section>
