@@ -90,6 +90,7 @@ h2 {
 	background-size: cover;
 }
 
+/*
 .fill {
 	position: relative;
 	display: flex;
@@ -99,9 +100,20 @@ h2 {
 }
 
 .fill img {
-	flex-shrink: 0;
+	flex-shrink: 1;
 	min-width: 100%;
 	min-height: 100%;
+}
+*/
+
+.tall-img {
+	margin-top: -50%;
+	width: 100%;
+}
+
+.wide-img {
+	margin-left: -50%;
+	height: 100%;
 }
 
 /* Icons */
