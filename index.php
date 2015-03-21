@@ -10,10 +10,10 @@
     </head>
     <body>  
 	    
-        <div class="wrapper">
+        <div class="wrapper tree-img bg-cover ">
 	    
 			<!-- HEADER -->
-		    <div class="header tree-img bg-cover tk-grafolita-script">
+		    <div class="header tk-grafolita-script">
 			    <span>
 			    	<div class="heart-svg"><svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
@@ -36,6 +36,20 @@
 					<div class="section-wrapper">
 						<div class="section-column">
 							<div class="section-content">
+								<p>Pidenim volorum est, aut exceper iberunt isciasp eribusam re sincien issimet es molupic ilique pedisqui num aut ulparuntio. Caborum dolupta conserovid quam, quia deriae lab ium enderum accatquid et harum sus estio. Nem comnietur rempor mi, sit aut essunt ani re nulluptaqui acerspitati aut lam erit, aciatint aut velesed quam fugitat iorerum et ut dolenim aribea sitat.
+Nat laboremque quis atene dolendae nit autas a nientemque quata velicab orroriatiunt quatem repudi occae dolendemod quid experes equosae simus, exerita estinctia quid qui abor sin nis volorei cieness equiae delent explibus asped quae etum rerum, sintor aliqui omnim laborep reictate volorib usdantem conserum qui quia diaerum harum ad enis sim volenis ad endusam quibusant.
+Dis enda eat expelest alit harum inulpa nonecae nobit inci velia voluptassint quam faccumque nis quam, te rem exerume vitae volupti isquian dundiciis et ipic tem suntem idelis et od es vollige ndellau discit as velici bera volupic to ipsa consequo et laborrum, que dendici magnatiae</p>
+							</div>
+						</div>
+					</div>
+				</section>
+								
+				<div class="section-split"></div>
+				
+				<section class="tk-adriane">
+					<div class="section-wrapper">
+						<div class="section-column">
+							<div class="section-content">
 								<h2>VÄGBESKRIVNING</h2>
 								<p>Pidenim volorum est, aut exceper iberunt isciasp eribusam re sincien issimet es molupic ilique pedisqui num aut ulparuntio. Caborum dolupta conserovid quam, quia deriae lab ium enderum accatquid et harum sus estio. Nem comnietur rempor mi, sit aut essunt ani re nulluptaqui acerspitati aut lam erit, aciatint aut velesed quam fugitat iorerum et ut dolenim aribea sitat.
 Nat laboremque quis atene dolendae nit autas a nientemque quata velicab orroriatiunt quatem repudi occae dolendemod quid experes equosae simus, exerita estinctia quid qui abor sin nis volorei cieness equiae delent explibus asped quae etum rerum, sintor aliqui omnim laborep reictate volorib usdantem conserum qui quia diaerum harum ad enis sim volenis ad endusam quibusant.
@@ -44,22 +58,16 @@ Dis enda eat expelest alit harum inulpa nonecae nobit inci velia voluptassint qu
 						</div>
 						<div class="section-column">
 							<div class="section-content">
-								<h1>VÄGBESKRIVNING</h1>
-								<p>Åk norrut.</p>
+								<h2>VÄGBESKRIVNING</h2>
+								<p>Pidenim volorum est, aut exceper iberunt isciasp eribusam re sincien issimet es molupic ilique pedisqui num aut ulparuntio. Caborum dolupta conserovid quam, quia deriae lab ium enderum accatquid et harum sus estio. Nem comnietur rempor mi, sit aut essunt ani re nulluptaqui acerspitati aut lam erit, aciatint aut velesed quam fugitat iorerum et ut dolenim aribea sitat.
+Nat laboremque quis atene dolendae nit autas a nientemque quata velicab orroriatiunt quatem repudi occae dolendemod quid experes equosae simus, exerita estinctia quid qui abor sin nis volorei cieness equiae delent explibus asped quae etum rerum, sintor aliqui omnim laborep reictate volorib usdantem conserum qui quia diaerum harum ad enis sim volenis ad endusam quibusant.
+Dis enda eat expelest alit harum inulpa nonecae nobit inci velia voluptassint quam faccumque nis quam, te rem exerume vitae volupti isquian dundiciis et ipic tem suntem idelis et od es vollige ndellau discit as velici bera volupic to ipsa consequo et laborrum, que dendici magnatiae</p>
 							</div>
 						</div>
 					</div>
 				</section>
 				
-				
-				<div class="section-split fill">
-					<img src="img/kissing-img.jpg">
-				</div>
-				
-				<!-- FOOTER -->
-				<footer>
-					<h4>FOOTER</h4>
-				</footer>
+				<div class="section-split"></div>
 			
 			</div>
 			
