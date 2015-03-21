@@ -39,12 +39,21 @@ body {
 	position: relative;
 	box-shadow: 0px 0px 10px black;
 	z-index: 10;
+	display: flex;
+	justify-content: center;
 }
 
-.wrapper > .content > section > * {
+.wrapper > .content > section > .section-wrapper {
 	width: 900px;
+	display: flex;
+}
+
+.wrapper > .content > section > .section-wrapper > .section-column {
 	padding: 25px;
-	margin: auto;
+}
+
+.wrapper > .content > section > .section-wrapper > .section-column > .section-content {
+	max-width: 400px;
 }
 
 .wrapper > .content > .section-split {
