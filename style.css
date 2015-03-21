@@ -41,6 +41,7 @@ body {
 	z-index: 10;
 	display: flex;
 	justify-content: center;
+	background-color: white;
 }
 
 .wrapper > .content > section > .section-wrapper {
@@ -50,15 +51,16 @@ body {
 
 .wrapper > .content > section > .section-wrapper > .section-column {
 	padding: 25px;
+	width: 100%;
 }
 
 .wrapper > .content > section > .section-wrapper > .section-column > .section-content {
-	max-width: 400px;
 }
 
 .wrapper > .content > .section-split {
 	position: relative;
-	height: 200px;
+	height: 150px;
+	background-color: transparent;
 }
 
 /* Fonts */
@@ -114,4 +116,15 @@ svg {
 	height: 25px;
 	fill: white;
 	display: inline-block;
+}
+
+/* For smaller screens */
+
+@media only screen and (max-width : 768px) {
+
+.wrapper > .content > section > .section-wrapper {
+	width: 100%;
+	display: block;
+}
+
 }
