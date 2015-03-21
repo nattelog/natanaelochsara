@@ -1,3 +1,4 @@
+// Implementing the embeded Google map
 function initialize(){
 	
 	var vibyCoord = new google.maps.LatLng(59.060328, 14.871228);
@@ -59,3 +60,13 @@ function initialize(){
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+// Making img fit well inside the section split
+$('.fill-img img').load(function(){
+	var height = $(this).height();
+	var width = $(this).width();
+	if (width > height)
+		$(this).addClass('wide-img');
+	else
+		$(this).addClass('tall-img');
+});
