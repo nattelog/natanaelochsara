@@ -30,6 +30,7 @@ function initialize(){
       '<h3>Viby kyrka</h3>'+
       '<div id="bodyContent">'+
       '<p>Här kommer vi vigas.</p>'+
+        '<p>Viby Församling, 694 95 Vretstorp</p>' +
       '</div>'+
       '</div>';
 	
@@ -39,6 +40,7 @@ function initialize(){
       '<h3>Betaniakyrkan</h3>'+
       '<div id="bodyContent">'+
       '<p>Du som fått inbjudan är välkommen hit på bröllopsfest efter vigseln.</p>'+
+        '<p>Betania Åbytorp, Portföljgatan 2, Kumla</p>' +
       '</div>'+
       '</div>';
 	
