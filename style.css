@@ -65,6 +65,14 @@ body {
 
 /* Fonts */
 
+.content, #googleMap content {
+    font-family: "adriane";
+}
+
+.header {
+    font-family: "grafolita-script";
+}
+
 h1 {
     font-size: 40px;
 }

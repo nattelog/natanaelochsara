@@ -13,10 +13,9 @@
     </head>
     <body>  
 	    
-        <div class="wrapper tk-adriane tree-img bg-cover">
+        <div class="wrapper tree-img bg-cover">
 	    
-			<!-- HEADER -->
-		    <div class="header tk-grafolita-script">
+		    <div class="header">
 			    <span>
 			    	<div class="heart-svg"><svg version="1.1" id="Lager_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
@@ -31,10 +30,8 @@
 			    </span>
 			</div>
 	    
-			<!-- CONTENT -->
 			<div class="content">
 				
-				<!-- ROAD DIRECTION SECTION -->
 				<section>
 					<div class="section-wrapper">
 						<div class="section-column">
@@ -44,13 +41,17 @@
 								<p>En bröllopsresa är något vi önskar att få göra och är väldigt tacksamma till bidrag. Men presentkort till möbler och vitvaror är också väldigt trevligt.</p>
 							</div>
 						</div>
+                        <div class="section-column">
+							<!--<h2>För dig som inte hittar.</h2>-->
+							<div id="googleMap"></div>
+						</div>
 					</div>
 				</section>
 								
 				<div class="section-split">
 				</div>
 				
-				<section>
+				<!--<section>
 					<div class="section-wrapper">
 						<div class="section-column">
 							<h2>För dig som inte hittar.</h2>
@@ -59,7 +60,7 @@
 					</div>
 				</section>
 				
-				<div class="section-split"></div>
+				<div class="section-split"></div>-->
 			
 			</div>
 			
