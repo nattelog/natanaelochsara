@@ -1,8 +1,8 @@
+<!DOCTYPE html>
 <html>
     <head>  
         <title>Sara och Natanael</title>
         <link rel="stylesheet" href="lib/bootstrap.min.css">
-        <link rel="stylesheet" href="lib/font-awesome.css">
         <link rel="stylesheet" href="style.css">
         <script src="//use.typekit.net/piv1mvd.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
