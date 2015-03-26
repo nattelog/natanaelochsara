@@ -37,13 +37,9 @@
 						<div class="section-column">
 							<div class="section-content">
 								<h2>Välkommen på vår vigsel!</h2>
-								<p>Lördagen den femtonde augusti 2015 klockan fjorton, dagen efter årsdagen av vår förlovning, ska vi vigas i Viby kyrka. Du som fått inbjudan på post är också välkommen till bröllopsfest i Betaniakyrkan i Åbytorp efter vigseln. Om du behöver hjälp med att hitta finns en karta här nedanför på sidan. Även om du inte fått en inbjudan på post är du ändå välkommen att dela eftermiddagen i Viby med oss.</p>
-								<p>En bröllopsresa är något vi önskar att få göra och är väldigt tacksamma till bidrag. Men presentkort till möbler och vitvaror är också väldigt trevligt.</p>
+								<p>Lördagen den femtonde augusti 2015 klockan fjorton, dagen efter årsdagen av vår förlovning, ska vi vigas i Viby kyrka. Du som fått inbjudan på post är också välkommen till bröllopsfest i Betaniakyrkan i Åbytorp efter vigseln. Även om du inte fått en inbjudan på post är du ändå välkommen att dela eftermiddagen i Viby med oss.</p>
+								<p>En bröllopsresa är något vi önskar att få göra och är väldigt tacksamma till bidrag.</p>
 							</div>
-						</div>
-                        <div class="section-column">
-							<!--<h2>För dig som inte hittar.</h2>-->
-							<div id="googleMap"></div>
 						</div>
 					</div>
 				</section>
@@ -51,7 +47,7 @@
 				<div class="section-split">
 				</div>
 				
-				<!--<section>
+				<section>
 					<div class="section-wrapper">
 						<div class="section-column">
 							<h2>För dig som inte hittar.</h2>
@@ -60,7 +56,7 @@
 					</div>
 				</section>
 				
-				<div class="section-split"></div>-->
+				<div class="section-split"></div>
 			
 			</div>
 			
