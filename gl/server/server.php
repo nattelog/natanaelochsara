@@ -1,5 +1,7 @@
 <?php 
 
+require 'database.php';
+
 ## Main page for server
 
 ##
@@ -47,7 +49,10 @@ function response_count_coming(){}
 
 function response_count_not_coming(){}
 
-function response_set($guest, $response){}
+function response_get_options(){}
+
+// Options is the table ID
+function response_set($guest, $option){}
 
 // Gets an array, sets all individual guests inside it
 function response_set_household($household){}
@@ -63,6 +68,17 @@ function get_households(){}
 
 // Returns a json-object containing the household connected to $guest
 function get_household($guest){}
+
+##
+## USER FUNCTIONS
+##
+
+function user_login($username, $password){}
+
+// Uses $_SESSION for $username
+function user_logout(){}
+
+function user_wrong_credentials($username, $password){}
 
 ##
 ## ERROR FUNCTIONS
