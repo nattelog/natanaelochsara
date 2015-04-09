@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 
-<?php require 'server/server.php'; ?>
-
 <html>
     <head>
 		<title>Sara och Natanael - Gästlista</title>
@@ -9,5 +7,9 @@
         <meta charset="utf-8">
 	</head>
 
-	<body></body>
+	<body>
+    
+        <?php require 'server/server.php'; ?>
+    
+    </body>
 </html>

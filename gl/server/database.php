@@ -28,36 +28,42 @@
 ## mySQL CONNECTION
 ##
 
-    # mySQL credentials
-$servername = "localhost";
-$username = "root";
-$password = "losenord";
-$dbname = "guestlist";
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-    # Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-    # Check connection
-if ($conn->connect_error)
-    send_package(false, $conn->connect_error);
-
-guest_get_list();
-
-guest_count();
-
-guest_children_count();
-
-db_close();
+try {
+    db_open();
+    guest_add("Natte'", "Log", 0, 1, 1);
+    guest_get_list();
+    db_close();
+}
+catch (mysqli_sql_exception $e){
+    report($e);
+}
 
 ##
 ## FUNCTIONS
 ##
 
+function db_open(){
+    // Credentials
+    $servername = "localhost";
+    $username = "root";
+    $password = "losenord";
+    $dbname = "guestlist";
+        
+    $GLOBALS["conn"] = new mysqli($servername, $username, $password, $dbname);
+}
+
+function db_close(){
+    mysqli_close($GLOBALS["conn"]);
+}
+
+##
+## UNSAFE QUERIES
+##
+
 function db_get_table($sql){
     $query = mysqli_query($GLOBALS["conn"], $sql);
-    
-    if (!$query)
-        send_package(false, $GLOBALS["conn"]->error);
     
     $result = array();
     
@@ -71,7 +77,7 @@ function db_get_row($sql){
     $query = mysqli_query($GLOBALS["conn"], $sql);
     
     if (!$query)
-        send_package(false, $GLOBALS["conn"]->error);
+        fail($GLOBALS["conn"]->error);
     
     else if ($query->num_rows == 0)
         return false;
@@ -83,13 +89,38 @@ function db_count($sql){
     $query = mysqli_query($GLOBALS["conn"], $sql);
     
     if (!$query)
-        send_package(false, $GLOBALS["conn"]->error);
+        fail($GLOBALS["conn"]->error);
     
     return $query->num_rows;
 }
 
-function db_close(){
-    mysqli_close($GLOBALS["conn"]);
+##
+## SAFE QUERIES
+##
+
+function db_prepare($sql){
+    $stmt = $GLOBALS["conn"]->prepare($sql);
+    if (!$stmt)
+        fail($GLOBALS["conn"]->error);
+    return $stmt;
+}
+
+function db_id_exist_safe($id, $table){
+    $sql = "SELECT * FROM $table WHERE id=?";
+    $stmt = db_prepare($sql);
+    $stmt->bind_param("i", $id);
+    
+    if (!$stmt)
+        fail($GLOBALS["conn"]->error);
+    
+    $stmt->execute();
+    $stmt->store_result();
+    
+    return $stmt->num_rows != 0;
+}
+
+function db_last_id(){
+    return $GLOBALS["conn"]->insert_id;
 }
 
 ?>
